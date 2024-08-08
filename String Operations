@@ -1,0 +1,38 @@
+ // 1.Concatenate 
+public class A {
+    public static void main(String[] args) {
+        String n1 = "Ayukti";
+        String n2 = "Aashi";
+        String n3 = n1 + " and " + n2;  
+        System.out.println(n3);
+    }
+}
+// 2.charAt
+public class A {
+    public static void main(String[] args) {
+        String n1 = "Ayukti";
+        System.out.println(n1.charAt(3));
+    }
+}
+//3.length
+public class A {
+    public static void main(String[] args) {
+        String n1 = "Ayukti";
+        System.out.println(n1.length());
+    }
+}
+//4.replace
+public class A {
+    public static void main(String[] args) {
+        String n1 = "Ruha";
+        System.out.println(n1);
+ System.out.println(n1.replace("u", "a"));
+    }
+}
+//5.Substring
+public class A {
+    public static void main(String[] args) {
+        String n1 = "Raha And Alia";
+        System.out.println(n1.substring(0, 4));
+    }
+}
