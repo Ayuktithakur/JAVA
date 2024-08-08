@@ -1,0 +1,38 @@
+ //1. Code to create an array display an array element
+public class A {
+    public static void main(String[] args) {
+int[] arr= new int[3];
+arr[0]=1;
+arr[1]=2;
+arr[2]=3;
+System.out.println(arr[0]);  
+    }
+}
+//2.Code to display length of an array 
+public class A {
+    public static void main(String[] args) {
+        int[] arr = { 1, 2, 3 };
+        System.out.println(arr.length);
+    }
+}
+//3.Code to sort (arrange elements of array in order)and then display an element
+import java.util.Arrays;
+public class A {
+    public static void main(String[] args) {
+        int[] arr = { 11, 66, 5, 44, 33 };
+        System.out.println(arr[2]);
+        Arrays.sort(arr);// sort
+        System.out.println(arr[2]);
+    }
+}
+//4.Code print 2-D array 
+import java.util.Arrays;
+public class A {
+    public static void main(String[] args) {
+        // 2-D array
+        int[][] arr = { { 1, 2, 3 }, { 3, 2, 1 } };
+        System.out.println(arr[0][1]);
+    }
+}
+
+
