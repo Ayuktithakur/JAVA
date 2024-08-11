@@ -1,0 +1,12 @@
+//Math class
+//2 12
+public class A {
+    public static void main(String args[]) {
+        System.out.println(Math.max(2, 12));//print maximum no.
+        System.out.println(Math.min(2, 12));//print minimum no.
+        // Random
+        System.out.println(Math.random());//print random no. in 0.xxxxx
+        System.out.println((int) Math.random());//print 0
+        System.out.println((int) (Math.random() * 100));//print random no.
+    }
+}
