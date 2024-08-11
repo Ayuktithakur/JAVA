@@ -1,0 +1,16 @@
+  // Implicit Typecasting
+public class A {
+    public static void main(String args[]) {
+        double price = 100.00;
+        double finalprice = price + 18;
+        System.out.println(finalprice);
+    }
+}
+//Explicit Typecasting
+public class A{
+public static void main(String args[]){
+int price = 100;
+int finalprice = price + (int) 18.88;
+System.out.println(finalprice);
+}
+}
