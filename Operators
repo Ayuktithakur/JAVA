@@ -1,0 +1,33 @@
+//Operators
+// 1.Arithmatic operators
+public class A {
+    public static void main(String args[]) {
+        int a = 5, b = 2;
+        int sum = a + b;
+        int sub = a - b;
+        int mul = a * b;
+        float div = a / b;
+        int modulo = a % b;
+        System.out.println(sum);
+        System.out.println(sub);
+        System.out.println(mul);
+        System.out.println(div);
+        System.out.println(modulo);
+    }
+}
+//Assignment Operators
+public class A {
+    public static void main(String args[]) {
+        int num = 5;//= is a assignment operator
+        num++;//Unary operator: increment operator (n++ or ++n)
+        System.out.println(num);
+    }
+}
+//Operators
+public class A {
+    public static void main(String args[]) {
+        int num = 5;
+        num--;//Unary operator: decrement operator (n-- or --n)
+        System.out.println(num);
+    }
+}
