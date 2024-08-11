@@ -23,11 +23,78 @@ public class A {
         System.out.println(num);
     }
 }
-//Operators
 public class A {
     public static void main(String args[]) {
         int num = 5;
         num--;//Unary operator: decrement operator (n-- or --n)
         System.out.println(num);
+    }
+}
+//Comparison Operators
+public class A {
+    public static void main(String args[]) {
+        int a = 12, b = 30;
+        if (a >= b)//">= " is a Comparision or relational or assignment operator
+            System.out.println("Correct");
+        else// if-else is a conditional operator
+            System.out.println("Wrong");
+    }
+//Logical operators
+public class A {
+    public static void main(String args[]) {
+        // && outputs when both is true
+        int a = 30, b = 15;
+        if (a < 40 && b < 40)
+            System.out.println("Both operands are less than 40");
+        // || outputs when one is true
+        if (a < 20 || b < 20)
+            System.out.println("Atleast one is less than 20 ");
+        // ! it is anot operator,it converts true to false and false to true
+        boolean adult = true;
+        if (!adult)
+            System.out.println("is adult");
+        else
+            System.out.println("is not adult");
+    }
+}
+//Code for switch case
+import java.util.Scanner;
+public class A {
+    public static void main(String args[]) {
+        // Switch
+        int day = 3;
+        switch (day) {
+            case 1:
+                System.out.println("Monday");
+                break;
+            case 2:
+                System.out.println("Tuesday");
+                break;
+            case 3:
+                System.out.println("Wednesday");
+                break;
+            case 4:
+                System.out.println("Thursday");
+                break;
+            default:
+                System.out.println("Either Friday,Saturday or sunday ");
+        }
+    }
+}
+//Code to Check users budget and give them suggestions 
+import java.util.Scanner;
+public class A {
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        // pen = 10; notebook= 40;
+        System.out.println("Enter your budget:");
+        int cash = sc.nextInt();
+        if (cash < 10) {
+            System.out.println("You can't by anything");
+            System.out.println("Get more cash");
+        } else if (cash >= 10 && cash < 50)
+            System.out.println(" You can get one thing");
+        else
+            System.out.println("You can get both");
     }
 }
