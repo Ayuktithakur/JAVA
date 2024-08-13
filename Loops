@@ -48,3 +48,33 @@ public class A {
         System.out.println("The end");
     }
 }
+//Using break keyword
+public class A {
+    public static void main(String args[]) {
+        int i = 0;
+        while (true) {
+            System.out.println(i);
+            i++;
+            if (i > 5) {
+                break;
+            }
+        }
+    }
+}
+  //Using Break & continue
+public class A {
+    public static void main(String args[]) {
+        int i = 0;
+        while (true) {
+            if (i == 3) {
+                i = i + 1;
+                continue;
+            }
+            System.out.println(i);
+            i++;
+            if (i > 5) {
+                break;
+            }
+        }
+    }
+}
